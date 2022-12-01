@@ -1,0 +1,34 @@
+title: Dorsa Halvachi
+description: Hello, I am a General Practioner from Iran.
+
+url: https://dorsahalvachi.github.io
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+# Header Option
+# header: large
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+  - title: Home
+    url: /index.html
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+
+social:
+  github: dorsahalvachi
+  twitter: dorsahalvachi
+  facebook: dorsahalvachi
+  email: doritahlv@gmail.com
+  linkedin: dorsahalvachi
+
+google_analytics: "UA-58263416-1"
+
+disqus:
+    shortname: brianmaierjr
